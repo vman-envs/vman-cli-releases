@@ -47,5 +47,11 @@ Within minutes, you should be able to see your new environment.
 To remove an ephemeral environment you can use the following: 
 
 ```bash
-vman remove --cluster-name <cluster-name> --environment-name <environment-name>
+vman delete --cluster-name <cluster-name> --environment-name <environment-name>
+```
+
+And to remove VMAN from your cluster, you can use:
+
+```bash
+vman remove --cluster-name <cluster-name>
 ```
